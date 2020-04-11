@@ -26,3 +26,13 @@ def solar_pv():
     v_pow_pv = A_pv * n_pv * ghi(h)
     #* (1 - (293 - (273+temp_PV(h))) * gamma)
     print(v_pow_pv)
+
+def main():
+    """Define main function to have a starting point and to call other functions."""
+
+    while True:
+        load_data()
+
+
+if __name__ == "__main__":
+	main()
