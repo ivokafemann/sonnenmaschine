@@ -19,3 +19,10 @@ def load_data():
 
     return df
     print(df.head())
+
+
+def solar_pv():
+
+    v_pow_pv = A_pv * n_pv * ghi(h)
+    #* (1 - (293 - (273+temp_PV(h))) * gamma)
+    print(v_pow_pv)
