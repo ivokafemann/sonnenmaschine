@@ -2,6 +2,6 @@ import time
 import pandas as pd
 import numpy as np
 
-def solar_pv():
-
-    v_pow_pv = A_pv * n_pv * ghi * (1 - (293 - (273+temp_PV(h))) * gamma)
+A_pv = 20
+n_pv = 0.2
+gamma = 1
